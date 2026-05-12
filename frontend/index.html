@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte ao Cliente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Space+Mono&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="chat-container">
+
+        <header class="chat-header">
+            <div class="avatar">
+                <img src="./assets/robot.jpg" width="24" height="24" />
+            </div>
+            <div>
+                <strong> Assistente Virtual</strong>
+                <span>Online agora</span>
+            </div>
+        </header>
+
+        <div class="chat-messages" id="messages"></div>
+
+        <div class="chat-input">
+            <input type="text" id="input" placeholder="Digite sua dúvida aqui" autocomplete="off" />
+            <button id="send-btn" aria-label="Enviar">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M3 20v-6l8-2-8-2V4l18 8z" />
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# logs
+*.log
+
+# temporários
+*.tmp
+
+# cache de frontend (caso algum dia use libs/build tools)
+dist/
+build/
+.cache/
