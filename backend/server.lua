@@ -1,6 +1,6 @@
 package.path = package.path .. ";./shared/?.lua"
 local socket = require("socket")
-local faq = require("shared.faq")
+local faq = require("faq")
 
 function buscarResposta(mensagem)
   local msg = mensagem:lower()

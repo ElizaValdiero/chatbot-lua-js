@@ -16,3 +16,5 @@ local faq = {
     resposta = "Você pode nos contatar pelo email suporte@empresa.com."
   },
 }
+
+return faq
